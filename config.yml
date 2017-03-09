@@ -1,4 +1,4 @@
-site: "http://oresomecraft.com/" # The trailing / is important!
+site: "http://fr-minecraft.org/" # The trailing / is important!
 apihash: "42424u22ioe824280" # The API secret set in your api.php
 
 custom_field_names:
