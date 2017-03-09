@@ -2,15 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.zachoz</groupId>
-    <artifactId>XenRegister</artifactId>
+    <groupId>org.frminecraft</groupId>
+    <artifactId>XenInscription</artifactId>
     <packaging>jar</packaging>
-    <name>XenRegister</name>
-    <url>http://oresomecraft.com/</url>
+    <name>XenInscription</name>
+    <url>http://fr-minecraft.org/</url>
     <version>1.0</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <main.class>com.zachoz.xenregister.XenRegister</main.class>
+        <main.class>org.frminecraft.xeninscription.XenInscription</main.class>
     </properties>
     <build>
         <finalName>${project.name}</finalName>
@@ -51,17 +51,17 @@
             <url>http://repo.bukkit.org/content/groups/public</url>
         </repository>
         <repository>
-            <id>OresomeCraft</id>
-            <url>http://assets.oresomecraft.com/maven</url>
+            <id>FrMinecraft</id>
+            <url>http://dev.fr-minecraft.org</url>
         </repository>
     </repositories>
-    <description>Register users on the forums from ingame.</description>
+    <description>In-game Xenforo inscription</description>
     <organization>
-        <name>OresomeCraft</name>
-        <url>http://oresomecraft.com/</url>
+        <name>FrMinecraft</name>
+        <url>http://fr-minecraft.org/</url>
     </organization>
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/Zachoz/XenRegister/issues</url>
+        <url>https://github.com/MrUrfaneck/XenInscription/issues</url>
     </issueManagement>
 </project>
